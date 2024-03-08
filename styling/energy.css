@@ -101,7 +101,7 @@ header {
     background-size: cover;
     display: inline-block;
     border-radius: 20%;
-    margin: 10px;
+    margin-left: 10%;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     position: relative;
@@ -109,4 +109,21 @@ header {
 
   .onClickTextOverImage div {
     position: absolute;
+    color: #fff;
+    padding: 8px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20%;
+    padding-top: 20%;
+    text-align: center;
+    opacity: 0;
+    transition: .3s;
+  }
+
+  .onClickTextOverImage div.show {
+    opacity: 1;
+    padding-top: 30%;
   }
