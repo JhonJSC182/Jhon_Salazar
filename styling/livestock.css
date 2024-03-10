@@ -105,6 +105,7 @@ header {
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     position: relative;
+    margin-top: 15px;
   }
 
   .onClickTextOverImage div {
