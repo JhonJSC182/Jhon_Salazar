@@ -127,12 +127,16 @@ header {
     text-align: left;
     border-radius: 4px;
     cursor: pointer;
-    transition: all 0.3s;
+    /* transition: all 0.3s; */
   }
 
-  .btn:hover {
+  .btn:hover:not([disabled]) {
     background: #222;
     color: #fff;
+  }
+
+  .btn:disabled {
+    cursor: no-drop;
   }
 
   #next-btn {
@@ -145,4 +149,12 @@ header {
     border-radius: 4px;
     cursor: pointer;
     display: none;
+  }
+
+  .correct {
+    background: rgb(74, 255, 74);
+  }
+
+  .incorrect {
+    background: rgb(255, 110, 110);
   }
