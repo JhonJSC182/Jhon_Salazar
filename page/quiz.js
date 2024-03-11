@@ -1,40 +1,40 @@
 const questions = [
     {
-        question: "first question",
+        question: "In what country is the largest oil field located?",
         answers: [
-            {text: "answer 1", correct: false},
-            {text: "answer 2", correct: true},
-            {text: "answer 3", correct: false},
-            {text: "answer 4", correct: false},
+            {text: "Saudi Arabia", correct: true},
+            {text: "United States of America", correct: false},
+            {text: "Venezuela", correct: false},
+            {text: "Iran", correct: false},
         ]
     },
 
     {
-        question: "first question",
+        question: "What is palladium named after?",
         answers: [
-            {text: "answer 1", correct: false},
-            {text: "answer 2", correct: true},
-            {text: "answer 3", correct: false},
-            {text: "answer 4", correct: false},
+            {text: "Astronomer William Palladium", correct: false},
+            {text: "Your pal ladium", correct: false},
+            {text: "From Pallas, the second-largest asteroid in the asteroid belt", correct: true},
+            {text: "The ancient Greek goddess Pallas Athena", correct: false},
         ]
     },
 
     {
-        question: "first question",
+        question: "Factors that determine cattle prices",
         answers: [
-            {text: "answer 1", correct: false},
-            {text: "answer 2", correct: true},
-            {text: "answer 3", correct: false},
-            {text: "answer 4", correct: false},
+            {text: "How hungry people are divided by the amount of cattles plus the cost of production", correct: false},
+            {text: "Feed prices, goverment regulations, the increase/decrease in turism for that specific country", correct: false},
+            {text: "Feed prices, gas prices and sweat equity", correct: false},
+            {text: "Feed prices, weather, global demand for beef, substitution and energy prices", correct: true},
         ]
     },
     {
-        question: "first question",
+        question: "When were soybeans first brought to North America",
         answers: [
-            {text: "answer 1", correct: false},
-            {text: "answer 2", correct: true},
-            {text: "answer 3", correct: false},
-            {text: "answer 4", correct: false},
+            {text: "During the Civil war", correct: false},
+            {text: "Early in the 19th century", correct: true},
+            {text: "They were already here and indians loved it", correct: false},
+            {text: "When soy sauce came out", correct: false},
         ]
     }
 ];
@@ -62,8 +62,8 @@ function showQuestion() {
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
-        button.classList.add("btn");
-        answerButtons.appendChild(button);
+        button.classList.add("btn"); //classList adds an element 
+        answerButtons.appendChild(button); //puttig the button created to each one of the questions
         if(answer.correct) {
             button.dataset.correct = answer.correct;
         }
