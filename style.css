@@ -20,16 +20,17 @@
     overflow: hidden;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #848484;
+    background-color: #da0202;
     /* background-image: url(./src/styles/images/sea-ocean-sky-night-cosmos-view-826635-pxhere.com_-scaled.jpg); */
 }
 
 
 header {
-    position: absolute;
-    top: 25px;
-    left: 60%;
-    /* border: solid; */
+  position: absolute;
+  top: 25px;
+  left: 60%;
+  border: solid;
+  background-color: #b6b6b6;
 }
 
 .nav {
@@ -97,22 +98,25 @@ header {
 
   .information {
     width: 59%;
-    height: 1000px;
+    height: 100%;
     position:relative;
     top: 50%;
     left: -40;
     transform: translateY(-50%);
-    
+    background-color: #da0202;
+    /* border: solid; */
+    /* z-index: 4; */
+    /* border: solid; */
   }
 
   #circle {
-    width: 100%;
-    height: 1000px;
+    width: 80%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: -26%;
     border-radius: 50%;
-    /* border: solid; */
+    border: solid;
     /* background-color: #ccc; */
     transform: rotate(0deg);
     transition: 1s;
@@ -123,7 +127,7 @@ header {
   }
 
   .feature {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     color: #000000;
   }
@@ -137,27 +141,31 @@ header {
   }
 
   .one{
-    top: 450px;
-    right: 50px;
-    
+    bottom: -8vh;
+    left: 10vh;
+    position: absolute;
+    /* border-top: solid white; */
   }
 
   .two {
-    top: 200px;
-    left: 310px;
-    transform: rotate(-90deg);
+    top: 20vh;
+    left: -18vh;
+    transform: rotate(90deg);
+    position: absolute;
   }
 
   .three {
-    bottom: 450px;
-    left:120px;
-    transform: rotate(-180deg);
+    bottom: -5vh;
+    left:-45vh;
+    transform: rotate(180deg);
+    position: absolute;
   }
 
   .four {
-    bottom: 200px;
-    right: 350px;
-    transform: rotate(-270deg);
+    bottom: 20vh;
+    right: -15vh;
+    transform: rotate(-90deg);
+    position: absolute;
   }
 
    .market {
@@ -173,7 +181,7 @@ header {
 
   .controls {
     position: absolute;
-    right: 45%;
+    right: 10%;
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
@@ -205,14 +213,16 @@ header {
     position: absolute;
     left: 0;
     top: 0;
+    /* border: solid; */
   }
 
   .instructions {
     right: 4%;
     top: 30%;
-    border: solid;
+    border: solid black 5px;
     position:absolute;
     padding: 10px;
+    background-color: #8b8b8b;
     /* width: 15px; */
   }
 

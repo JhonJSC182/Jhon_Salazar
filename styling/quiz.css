@@ -135,7 +135,7 @@ header {
   }
 
   .btn:hover:not([disabled]) {
-    background: #222;
+    background: #b39e9e;
     color: #fff;
   }
 
@@ -156,9 +156,25 @@ header {
   }
 
   .correct {
-    background: rgb(74, 255, 74);
+    background: rgb(23, 208, 23);
   }
 
   .incorrect {
     background: rgb(255, 110, 110);
+  }
+
+  .music {
+    /* border: solid; */
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .music button {
+    height: 60px;
+    width: 60px;
+    background: aqua;
+    border-radius: 50%;
+    cursor:pointer;
+    margin: 5px;
   }
