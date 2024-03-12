@@ -49,49 +49,49 @@ let score = 0;
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
-    nextButton.innerHTML = "Next";
+    nextButton.innerHTML = "Next"; //setting the next-btn to "Next"
     showQuestion();
 }
 
 function showQuestion() {
-    resetState();
-    let currentQuestion = questions[currentQuestionIndex];
-    let questionNo = currentQuestionIndex + 1;
-    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+    resetState(); // it will reset the previous question and answer
+    let currentQuestion = questions[currentQuestionIndex];// which question you are on
+    let questionNo = currentQuestionIndex + 1; 
+    questionElement.innerHTML = questionNo + ". " + currentQuestion.question; // displays the question with the question number
 
     currentQuestion.answers.forEach(answer => {
-        const button = document.createElement("button");
-        button.innerHTML = answer.text;
-        button.classList.add("btn"); //classList adds an element 
+        const button = document.createElement("button"); //created a button
+        button.innerHTML = answer.text; //putting the answers in the html buttons
+        button.classList.add("btn"); //adding the button to "btn"
         answerButtons.appendChild(button); //puttig the button created to each one of the questions
         if(answer.correct) {
-            button.dataset.correct = answer.correct;
-        }
+            button.dataset.correct = answer.correct; //if answer is correct, set the buttons the answers[correct]
+        };
         button.addEventListener("click", selectAnswer);
     })
 };
 
 function resetState() {
-    nextButton.style.display = "none";
+    nextButton.style.display = "none"; //won't display the button
     while(answerButtons.firstChild) {
-        answerButtons.removeChild(answerButtons.firstChild);
+        answerButtons.removeChild(answerButtons.firstChild); //will remove the answers
     }
 }
 
-function selectAnswer(e) {
-    const selectedBtn = e.target;
+function selectAnswer(e) {  // e is an object containing information about the event 
+    const selectedBtn = e.target; //the button that was selected
     const isCorrect = selectedBtn.dataset.correct === "true";
-    if(isCorrect) {
-        selectedBtn.classList.add("correct");
+    if(isCorrect) { 
+        selectedBtn.classList.add("correct"); //if the right option was chosen, add the classname correct
         score++;
     } else {
-        selectedBtn.classList.add("incorrect");
+        selectedBtn.classList.add("incorrect"); 
     }
-    Array.from(answerButtons.children).forEach(button => {
-        if(button.dataset.correct === "true") {
-            button.classList.add("correct");
+    Array.from(answerButtons.children).forEach(button => { //it is checking each of the buttons
+        if(button.dataset.correct === "true") { //if the answers are true
+            button.classList.add("correct");    //give them a class of "correct"
         }
-        button.disabled = true;
+        button.disabled = true; //don't allow to choose anything else afterwarss
     });
     nextButton.style.display = "block";
 };
@@ -106,17 +106,17 @@ function showScore(){
 function handleNextButton(){
     currentQuestionIndex++;
     if(currentQuestionIndex < questions.length) {
-        showQuestion();
+        showQuestion(); //if there are more questions, show the question
     } else {
-        showScore();
+        showScore(); //if there aren't any more questions show the score
     }
 };
 
 nextButton.addEventListener("click", ()=> {
     if(currentQuestionIndex < questions.length) {
-        handleNextButton();
+        handleNextButton(); // if there are more questions
     } else {
-        startQuiz();
+        startQuiz(); // if the questions are over and you want to restart the quiz
     }
 })
 

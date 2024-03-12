@@ -6,24 +6,26 @@
 }
 
 .content {
-    position: relative;
-    width: 100%;
-    height: 35vh;
-    background:#111;
-    color: #fff;
-    overflow: hidden;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #848484;
-    /* background-image: url(./src/styles/images/sea-ocean-sky-night-cosmos-view-826635-pxhere.com_-scaled.jpg); */
+  position: relative;
+  width: 100%;
+  height: 100vh;   
+  background:#111;
+  color: #fff;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #da0202;
+
+  /* background-image: url(./src/styles/images/sea-ocean-sky-night-cosmos-view-826635-pxhere.com_-scaled.jpg); */
 }
 
 
 header {
-    position: absolute;
-    top: 25px;
-    left: 60%;
-    /* border: solid; */
+  position: absolute;
+  top: 25px;
+  left: 60%;
+  border: solid;
+  background-color: #808080;
 }
 
 .nav {
@@ -95,15 +97,17 @@ header {
     border-radius: 10px;
     padding: 30px;
 
+    margin-top: 10%;
     border: solid;
   }
 
   .app h1 {
     font-size: 50px;
-    color: rgb(68, 68, 252);
+    color: rgb(77, 43, 43);
     font-weight: 600;
     border-bottom: 1px solid;
     padding-bottom: 30px;
+    
   }
 
   .quiz {
@@ -112,12 +116,12 @@ header {
 
   .quiz h2 {
     font-size: 30px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 600;
   }
 
   .btn {
-    background: #fff;
+    background: #ffffff;
     color: black;
     font-weight: 500;
     width: 100%;
