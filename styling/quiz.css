@@ -173,8 +173,9 @@ header {
   .music button {
     height: 60px;
     width: 60px;
-    background: aqua;
+    background: rgb(152, 125, 141);
     border-radius: 50%;
     cursor:pointer;
     margin: 5px;
+    border: solid;
   }

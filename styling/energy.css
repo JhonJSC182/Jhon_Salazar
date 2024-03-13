@@ -94,12 +94,7 @@ header {
     display: block;
   }
 
-  .energy {
-    position: relative;
-    width: 100%;
-   
-    border: solid;
-  }
+ 
 
   .onClickTextOverImage {
     width: 70vh;

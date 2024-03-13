@@ -16,5 +16,5 @@ for (let i = 0; i < textOverImage.length; i++) {
         }
     }
 }
-console.log(this)
+
 

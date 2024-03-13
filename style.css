@@ -230,4 +230,149 @@ header {
     color: #000000;
     
   }
+
+
+  /* commodities */
   
+  .onClickTextOverImage {
+    width: 70vh;
+    height: 70vh;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 20%;
+    margin-left: 10%;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    position: relative;
+    margin-top: 10%;
+  }
+
+  .onClickTextOverImage div {
+    position: absolute;
+    color: #fff;
+    padding: 8px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20%;
+    padding-top: 20%;
+    text-align: center;
+    opacity: 0;
+    transition: .3s;
+  }
+
+  .onClickTextOverImage div.show {
+    opacity: 1;
+    padding-top: 30%;
+  }
+
+
+  .allTogether {
+    background: rgb(255, 104, 104);
+    padding-bottom: 15px;
+  }
+
+
+
+  /* quiz */
+
+  .test {
+    background: red;
+    padding-top: 1px;
+  }
+  
+  .app {
+    background-color: #a9a9a9;
+    width: 90%;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+
+    margin-top: 10%;
+    border: solid;
+  }
+
+  .app h1 {
+    font-size: 50px;
+    color: rgb(77, 43, 43);
+    font-weight: 600;
+    border-bottom: 1px solid;
+    padding-bottom: 30px;
+    
+  }
+
+  .quiz {
+    padding: 20px 0;
+  }
+
+  .quiz h2 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+  }
+
+  .btn {
+    background: #ffffff;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    /* transition: all 0.3s; */
+  }
+
+  .btn:hover:not([disabled]) {
+    background: #b39e9e;
+    color: #fff;
+  }
+
+  .btn:disabled {
+    cursor: no-drop;
+  }
+
+  #next-btn {
+    background: rgb(1, 1, 126);
+    color: #fff;
+    font-weight: 500;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+  }
+
+  .correct {
+    background: rgb(23, 208, 23);
+  }
+
+  .incorrect {
+    background: rgb(255, 110, 110);
+  }
+
+  .music {
+    /* border: solid; */
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .music button {
+    height: 60px;
+    width: 60px;
+    background: rgb(152, 125, 141);
+    border-radius: 50%;
+    cursor:pointer;
+    margin: 5px;
+    border: solid;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
