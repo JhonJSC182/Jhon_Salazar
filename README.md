@@ -13,6 +13,8 @@ Center - Include images to interact with and learn from.
 
 Bottom - a final quiz to test the knowledge received.
 
+![wireframe](/images/QuVR3T---Wireframe-cc-Premium17104409858851710440987.pdf)
+
 
 Technologies
 html, css and JavaScript
