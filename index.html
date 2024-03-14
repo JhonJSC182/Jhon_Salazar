@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./dist/main.css">
     <link rel="icon" type="image/x-icon" href="./6785646.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -22,9 +22,10 @@
                 </button>
                 <div class="dropdown-content">
                     <a href="#energy">Energy</a>
-                    <a href="#metals">Metals</a>
-                    <a href="#livestock">Livestock</a>
                     <a href="#grains">Grains</a>
+                    <a href="#livestock">Livestock</a>
+                    <a href="#metals">Metals</a>
+                    
                 </div>
             </div>
              <a href="#last">Quiz</a> 
@@ -36,30 +37,30 @@
             
             <div id="circle">
                 <div class="feature one">
-                    <a href="energy"><img style="border-radius: 40%;" src="./src/styles/images/Energy_Arc_(central_electrode_of_a_Plasma_Lamp).jpg" alt=""></a>
+                    <img style="border-radius: 40%;" src="./images/Energy_Arc_(central_electrode_of_a_Plasma_Lamp).jpg" alt="">
                     <div>
-                        <a href="energy" style="text-decoration: none; color: black;"><h1>Energy</h1></a>
+                        <a href="#energy" style="text-decoration: none; color: black;"><h1>Energy</h1></a>
                         <p>Crude oil, gasoline, natural gas</p>
                     </div>
                 </div>
                 <div class="feature two">
-                    <a href="livestock.html"><img style="border-radius: 40%;" src="./src/styles/images/images.jpg" alt=""></a>
+                    <img style="border-radius: 40%;" src="./images/images.jpg" alt="">
                     <div>
-                        <a href="livestock.html" style="text-decoration: none; color: black;"><h1>Livestock</h1></a>
+                        <a href="#livestock" style="text-decoration: none; color: black;"><h1>Livestock</h1></a>
                         <p>Feeder cattle, lean hogs, live cattle</p>
                     </div>
                 </div>
                 <div class="feature three">
-                    <a href="grains.html"><img style="border-radius: 40%;" src="./src/styles/images/melissa-askew-y4xZxzN754M-unsplash-2000x1200.jpg" alt=""></a>
+                    <img style="border-radius: 40%;" src="./images/melissa-askew-y4xZxzN754M-unsplash-2000x1200.jpg" alt="">
                     <div>
-                        <a href="grains.html" style="text-decoration: none; color: black;"><h1>Grains</h1></a>
+                        <a href="#grains" style="text-decoration: none; color: black;"><h1>Grains</h1></a>
                         <p>Coffee, corn, wheat</p>
                     </div>
                 </div>
                 <div class="feature four">
-                    <a href="metals.html"><img style="border-radius: 40%;" src="./src/styles/images/Precious_Metals_GettyImages-175789492-972e0ee303b3440aa9fc072ba5558f65.jpg" alt=""></a>
+                    <img style="border-radius: 40%;" src="./images/Precious_Metals_GettyImages-175789492-972e0ee303b3440aa9fc072ba5558f65.jpg" alt="">
                     <div>
-                        <a href="metals.html" style="text-decoration: none; color: black;"><h1>Metals</h1></a>
+                        <a href="#metals" style="text-decoration: none; color: black;"><h1>Metals</h1></a>
                         <p>Copper, gold, silver</p>
                     </div>
                 </div>
@@ -67,9 +68,9 @@
         </div>
         
         <div class="controls">
-            <img id="up" src="./src/styles/images/icons8-arrow-24.png" alt="">
+            <img id="up" src="./images/icons8-arrow-24.png" alt="">
             <h3>Commodity sectors</h3>
-            <img id="down" src="./src/styles/images/icons8-arrow-24.png" alt="">
+            <img id="down" src="./images/icons8-arrow-24.png" alt="">
         </div>
     </div>
 
@@ -85,9 +86,9 @@
             <br>
             <h1>Getting around the website</h1>
             <br>
-            <p>Click on the arrows of "Commodity sectors" to see the different options to choose from. Or you</p>
-            <p>can click on the dropdown list to see the options right away. After deciding which sector you'll</p>
-            <p>like to learn about, go ahead and select.</p>
+            <p>Click on the arrows of "Commodity sectors" to see the different options to choose from. Click</p>
+            <p>on the dropdown list to see the options right away. After deciding which sector you'll</p>
+            <p>like to learn about, go ahead and select where you'd like to go or scroll to see one by one</p>
             <p>Afterwards, go ahead to the quiz and see what new things you have learned.</p>
         </div>
     </div>
@@ -162,7 +163,7 @@
     </section>
 
 
-    <section id="livetock">
+    <section id="livestock">
 
     <div class="onClickTextOverImage" style="background-image:url(https://cdn.assetmg.info/dims4/default/8ca5fac/2147483647/strip/true/crop/1600x900+0+0/resize/1000x563!/quality/90/?url=https%3A%2F%2Fk2-prod-in-investor-prod.s3.us-east-1.amazonaws.com%2Fbrightspot%2Faf%2F35%2Fd5e124ca41308ee849ea32a92e70%2F231114cattle-1600x900.jpg);">
         <div >
@@ -231,7 +232,7 @@
     </section>
 
 </div>
-    <section id="last"></section>
+    <section id="last" style="border-top: solid;"></section>
    <div class="test"> 
     <div class="app">
         <h1>Let the games begin</h1>
@@ -249,7 +250,7 @@
 
 
     <audio id="audio">
-        <source src="./src/styles/images/Matthew Wilder - Break My Stride (Lyrics).mp3" type="audio/mp3">
+        <source src="./images/Matthew Wilder - Break My Stride (Lyrics).mp3" type="audio/mp3">
     </audio>
 
     <div class="music">
@@ -273,7 +274,7 @@
 
 
 
-<script src="./src/index.js"></script>
+<script src="./dist/main.js"></script>
     
 </body>
 </html>

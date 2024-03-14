@@ -1,27 +1,22 @@
 Background
-My site will have information about the commodities market for people who want to get a basic understanding of what they are and how they work. It also provides interesting economic facts that people can enjoy and interact with. The information will include why prices increase/decrease, the effects it has on the overall economy and why it is important for the well-being of regular people.
-Functionality
-Users will have a visual representation of each commodity and have the option to click on whichever one they are interested in so they can be taken to another page to receive more in-depth information about that commodity.
-This project will have clear instructions for how to utilize the website and it will also include a read me.
+My site will have information about the commodities market for people who want to get a basic understanding of what they are and how they work. It also provides interesting economic facts that people can enjoy and interact with.
+
+Users will see images the commodities included and have the option to click on whichever one they are interested in, showing them information on each one.
+
+This project will have clear instructions for how to utilize the website.
 
 Layout
 This is a basic representation of the main page.
-NAVBAR
+NAVBAR - Links, home, the varios sections of the page.
 
+Center - Include images to interact with and learn from.
 
-
-
-
-
-				
-
-		
-
-
+Bottom - a final quiz to test the knowledge received.
 
 
 Technologies
-Three.js, D3, canva.
+html, css and JavaScript
+
 Implementation timeline
 Friday & weekend
 Start off with the html and CSS portion and put together all the visual aspects of the site so I can have a good template to work on come Monday.
@@ -30,7 +25,7 @@ Monday
 Create the information and find the images to use in the site and adjust them in a way where they align correctly on the site.
 
 Tuesday
-Create the connections to be able and switch from one page to another and make sure any other interactive parts of the site are up and running.
+Create the connections to be able and switch from one section to another and make sure any other interactive parts of the site are up and running.
 
 Wednesday
 Catch up on any bugs or errors that will be preventing the site to work correctly.
