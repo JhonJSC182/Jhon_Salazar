@@ -1,9 +1,5 @@
 Background
-My site will have information about the commodities market for people who want to get a basic understanding of what they are and how they work. It also provides interesting economic facts that people can enjoy and interact with.
-
-Users will see images the commodities included and have the option to click on whichever one they are interested in, showing them information on each one.
-
-This project will have clear instructions for how to utilize the website.
+My site will have information about the commodities market for people who want to get a basic understanding of what they are and how they work. It also provides interesting economic facts that people can enjoy and interact with. Users will see images representing the commodities market and have the option to click on whichever one they are interested in, showing them interesting facts about each one. This project will have clear instructions for how to utilize the website.
 
 Layout
 This is a basic representation of the main page.
@@ -21,16 +17,16 @@ html, css and JavaScript
 
 Implementation timeline
 Friday & weekend
-Start off with the html and CSS portion and put together all the visual aspects of the site so I can have a good template to work on come Monday.
+Start off with html and CSS portion and put together all the visual aspects of the site so I can have a good template to work with.
 
 Monday
-Create the information and find the images to use in the site and adjust them in a way where they align correctly on the site.
+Create the information and find images to use in the site and utilize some Javascript in order to have interactivity.
 
 Tuesday
-Create the connections to be able and switch from one section to another and make sure any other interactive parts of the site are up and running.
+Implement a quiz portion, to test users on the facts learned through the site, also include the option to click and have the page scroll to whichever part of the page they are interested in seeing.
 
 Wednesday
-Catch up on any bugs or errors that will be preventing the site to work correctly.
+Check for any bugs, add music and the favicon, also work on some fixing some of the css.
 
 Thursday
 Have the project ready or only have minor changes.
