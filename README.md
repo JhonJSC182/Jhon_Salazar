@@ -5,6 +5,8 @@ Users will see images the commodities included and have the option to click on w
 
 This project will have clear instructions for how to utilize the website.
 
+
+
 Layout
 This is a basic representation of the main page.
 NAVBAR - Links, home, the varios sections of the page.

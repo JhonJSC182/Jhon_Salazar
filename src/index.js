@@ -9,6 +9,8 @@
 //     })
 // })
 
+//start
+
 let circle = document.getElementById("circle")
 let up = document.getElementById("up")
 let down = document.getElementById("down")
@@ -29,7 +31,7 @@ down.onclick = function() {
     rotateValue = rotateSum;
 }
 
-//scroll
+
 
 
 // images
