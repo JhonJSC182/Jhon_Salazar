@@ -1,7 +1,11 @@
 Background
 My site will have information about the commodities market for people who want to get a basic understanding of what they are and how they work. It also provides interesting economic facts that people can enjoy and interact with. Users will see images representing the commodities market and have the option to click on whichever one they are interested in, showing them interesting facts about each one. This project will have clear instructions for how to utilize the website.
 
-
+Functionality
+You will be able to click on arrows that show small images and names of economic sectors. You can click on any of them to scroll you down to that certain section of the page.
+There is also the option to go to the navbar and choose that section for a quicker access. The navbar will also have links to my Linked in and Github.
+When going through the page and interacting with the images, it is a good idea to remember information so you can be ready for the final quiz.
+In this final quiz you will encounter 4 questions, when finished it will show you a score and the option to play again if you'd like.
 
 Layout
 This is a basic representation of the main page.
